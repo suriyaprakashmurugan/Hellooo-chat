@@ -7,7 +7,7 @@ export default function Chat() {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
 
-  console.log("messages", messages);
+  console.log("messagesjkjkjkjk", messages);
 
   useEffect(() => {
     const handleMessage = (data) => {
